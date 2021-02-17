@@ -1,1 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
 
+/* Heading */
+
+header {
+  height: 64px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 24px;
+}
+
+li, a, span {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+header img {
+  width: 40px;
+}
+
+.colmar {
+  font-size: 20px;
+}
+
+.logo, .colmar {
+  margin-right: auto;
+}
+
+#name1 {
+  font-weight: 900;
+}
+
+#name2 {
+  color: gray;
+}
+
+.nav--links {
+  list-style: none;
+}
+
+.nav--links li {
+  display: inline-block;
+  padding: 0 16px;
+}
